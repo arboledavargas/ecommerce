@@ -1,0 +1,27 @@
+.brand_carrousell {
+  width: 100%;
+}
+
+.brand_carrousell_title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+}
+
+.brand_carrousell_content {
+  display: flex;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--card-background);
+  border-radius: 10px;
+}
+
+.brand_image {
+  height: 3rem;
+  margin-bottom: 0.5rem;
+}

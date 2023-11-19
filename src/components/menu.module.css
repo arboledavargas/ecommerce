@@ -1,0 +1,23 @@
+.menu_container {
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+  width: 100%;
+}
+
+.menu {
+  padding: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 50px;
+  width: 100%;
+
+  color: var(--font-color-dissabled);
+}
+
+.active {
+  color: var(--font-color);
+}
